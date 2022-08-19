@@ -132,7 +132,7 @@ function darkMode() {
         select.style.color = "#e1e1e1";
         for (var i = 0; i < inputsAndTextFields.length; i++){
             for(var j = 0; j < inputsAndTextFields[i].length; j++){
-                if (inputsAndTextFields[i][j].type != 'file' && inputsAndTextFields[i][j].id != 'email_field'){
+                if (inputsAndTextFields[i][j].type != 'file' && inputsAndTextFields[i][j].id != 'email_field' && inputsAndTextFields[i][j].id != "search_field"){
                     inputsAndTextFields[i][j].style.backgroundColor = '#202023';
                     inputsAndTextFields[i][j].style.color = "#e1e1e1"
                 };
@@ -179,7 +179,7 @@ function darkMode() {
         };
 
         for (var i = 0; i < inputs.length; i++){
-            if (inputs[i].id != 'email_field'){
+            if (inputs[i].id != 'email_field' && inputs[i].id != "search_field"){
                 inputs[i].style.setProperty('background-color', "#202023", "important");
                 inputs[i].style.color = "#e1e1e1"; 
             };   
