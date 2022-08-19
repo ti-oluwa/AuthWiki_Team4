@@ -37,7 +37,7 @@ body{
 }
 
 a:hover{
-    color: var(--highlight_color);
+    color: var(--highlight_color) !important;
 }
 
 

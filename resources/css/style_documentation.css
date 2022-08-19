@@ -39,8 +39,8 @@ body{
     
 }
 
-a:hover{
-    color: var(--highlight_color);
+a:hover, a p:hover{
+    color: var(--highlight_color) !important;
 }
 
 button{
