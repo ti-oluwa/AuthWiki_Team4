@@ -163,7 +163,9 @@ function darkMode() {
     // CHANGE SETTINGS COLOR
     if (window.location.href.includes('settings') == true){
         document.getElementById('popup_success').style.backgroundColor = "#2f2f2f";
+        document.getElementById('popup_success').style.boxShadow = "rgba(31, 31, 31, 0.7) 0px 0px 0px 100vmax, rgba(0, 0, 0, 0.6) 0px 0px 50px 20px";
         document.getElementById('delete_confirm').style.backgroundColor = "#2f2f2f";
+        document.getElementById('delete_confirm').style.boxShadow = "rgba(31, 31, 31, 0.7) 0px 0px 0px 100vmax, rgba(0, 0, 0, 0.6) 0px 0px 50px 20px";
         document.getElementById('delete_confirm').getElementsByTagName('button')[1].style.color = "red";
         document.getElementById('hr1').style.boxShadow = "0 0 0 100vmax #e1e1e1";
         var labels = document.getElementsByTagName('label');
